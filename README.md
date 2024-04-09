@@ -1,5 +1,5 @@
 # Get-Started-Kafka
-Link = https://medium.com/@beghoul.nadjet/hands-on-exemple-darchitecture-event-simple-7d9a54468a67
+Link = https://medium.com/@nbeghoul/hands-on-exemple-darchitecture-event-simple-7d9a54468a67
 
 ## Install prerequisites : 
     pip install flask confluent_kafka pymongo
