@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app-business:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: i-consumerkafka:1.0
+    networks:
+      custom_net:
+        ipv4_address: 172.22.0.2
+
+networks:
+  custom_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.22.0.0/16
+          gateway: 172.22.0.1
